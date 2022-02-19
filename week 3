@@ -1,0 +1,10 @@
+let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob']; 
+let lengths = names.map(function(element){
+    return element.length;
+    
+});
+console.log(lengths);
+
+
+names.concat(0 +''+ 1 +''+ 2 +''+ 3 +''+ 4 +''+ 5);
+console.log(names);
