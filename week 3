@@ -8,3 +8,9 @@ console.log(lengths);
 
 names.concat(0 +''+ 1 +''+ 2 +''+ 3 +''+ 4 +''+ 5);
 console.log(names);
+
+ let nameLengths = [lengths]
+ let namesArray = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob']
+ for(i = 0; i <= namesLengths; i++);
+ console.log(namesArray);
+ console.log(nameLengths);
