@@ -138,3 +138,15 @@ function willBuyDrink(isHotOutside, moneyInPocket){
         
     }} console.log(willBuyDrink(true, 26))
    
+   //question 13. Create a function of your own that solves a problem. In comments, write what the function does and why you created it.
+   // I created this to determine if I had enough to purchase my new computer.
+function newComputer(savings, cost){
+  if(savings >= cost){
+    return true;
+  }
+  return false;
+
+} 
+let savings = 2800;
+let cost = 3500;
+console.log(newComputer(savings,cost));
